@@ -63,6 +63,31 @@ body, html {
     text-align: center;
     position: relative;
 }
+.form {
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+input {
+    width: 100%;
+    margin: 20px 0;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid #3e3f3a;
+}
+input:focus {
+    outline-width: 0;    
+}
+#name {
+    margin-top: 0px;
+}
+#email {
+    margin-top: 20px;
+}
+#msg {
+    margin-top: 40px;
+}
 .container img {
     zoom: 2;
     padding: 0px;
