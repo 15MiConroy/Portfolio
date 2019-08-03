@@ -5,6 +5,7 @@
     window.onload=function(){
         document.getElementById("sendMessage").addEventListener("click", sendMessage)
         function sendMessage() {
+            document.getElementById("sendMessage").style.animation()
             var name = document.getElementById("nameInput").value;
             var email = document.getElementById("emailInput").value;
             var message = document.getElementById("msgInput").value;
@@ -50,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Michael Conroy</a>
+                <a class="navbar-brand" href="index.html">Michael Conroy</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -58,6 +59,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">About Me</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Experience</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -68,8 +71,10 @@
     <!--Home Start-->
     <div class="header">
         <div class="centered">
+            <div style="background-color:rgba(62,63,58,0.6); width:20%; margin:0 auto; border-radius:30px">
             <h1 style="text-align: center; color:white">Michael's Portfolio</h1>
             <h3 style="text-align: center; color:white">Computer Engineer</h3>
+            </div>
         </div>
     </div>
     <!--Home End-->
